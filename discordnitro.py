@@ -40,7 +40,6 @@ with open("Nitro Codes.txt", "w", encoding='utf-8') as file:
             print(f"\n\n {Fore.LIGHTGREEN_EX}Valid {Fore.RESET}| https://discord.gift/{code}\n\n")
             print(f"{Fore.LIGHTBLUE_EX}Transfroming it into the txt file...{Fore.RESET}")
             validcode = f"https://discord.gift/{code}"
-            time.sleep(3)
             file.write(validcode)
             print(f"{Fore.LIGHTMAGENTA_EX}Transfromation done, enjoy your nitro{Fore.RESET}")
             exit()
